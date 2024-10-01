@@ -4,7 +4,7 @@ import os
 import PyPDF2 as pdf
 
 from dotenv import load_dotenv
-genai.configure(api_key="AIzaSyD4mMEE63d3hpeJv0MbFHf0F35IZ40AdAA")
+genai.configure(api_key="Insert your API key here")
 
 def get_gemini_response(input):
     model=genai.GenerativeModel('gemini-pro')
