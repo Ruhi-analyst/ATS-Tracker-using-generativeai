@@ -16,7 +16,7 @@ cd smart-ats
 ```
 ### 2. Create and Activate a Virtual Environment
 Creating Virtual Environment
-
+```
 python -m venv env
 Activating the Virtual Environment (Windows)
 For PowerShell:
@@ -35,25 +35,27 @@ After activating the virtual environment, install the required dependencies:
 pip install -r requirements.txt
 ```
 ### 4. Running the Application
-```
 Start the Streamlit server by running:
 
 ```
 streamlit run app.py
-To stop the server, press Ctrl + C in the terminal.
 ```
+To stop the server, press Ctrl + C in the terminal.
+
 ### 5. Deactivating the Virtual Environment
 To deactivate the virtual environment:
 
 ```
 deactivate
 ```
-Project Structure
+
+### Project Structure
+
 app.py: Main Python file to run the Streamlit application.
-.config: Configuration files (if applicable).
+.env:  Environment Variables (Gemini API KEY).
 requirements.txt: Contains all Python dependencies for the project.
-README.md: This file, containing instructions for setting up and using the project.
-Requirements
+
+### Requirements : 
 Python 3.7+
 Streamlit
 PyPDF2
